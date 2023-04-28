@@ -1,0 +1,629 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+html,
+body {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  display: block;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: #c8df89;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-width: 620px;
+}
+
+.barra_principal {
+  text-align: left;
+  padding: 10px;
+  margin: 0%;
+  font-size: 60px;
+  margin: 0;
+  color: rgb(54, 101, 141);
+}
+
+.menuHam {
+  display: none;
+}
+
+.container_jogo_das_palavras {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_jogo_das_palavras input,
+.container_jogo_das_palavras button {
+  background: rgb(153, 150, 150);
+  color: #fff;
+}
+
+@media (max-width: 720px) {
+  .btns {
+    display: flex;
+    position: relative;
+    top: 83px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .barra_principal {
+    white-space: nowrap;
+    position: relative;
+    text-align: center;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    left: -90px;
+  }
+  .App {
+    height: 160px;
+  }
+  .container-cadastro {
+    position: relative;
+  }
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr) !important;
+    margin: 0 !important;
+  }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.CaixaPrincipalSuperior {
+  padding: 25px;
+}
+
+.btn {
+  position: relative;
+  padding: 5px;
+  top: -75px;
+  margin: 3px;
+  border: none;
+  background-color: transparent;
+  color: rgb(54, 101, 141);
+  font-size: 100%;
+}
+
+.btn:hover {
+  background-color: rgb(39, 153, 202);
+  border-radius: 15px;
+}
+
+.CaixaPrincipal,
+.container-cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(45deg, rgb(83, 145, 199), rgb(255, 196, 196));
+  margin: 20px;
+  padding: 50px;
+  border-radius: 10px;
+  min-width: 600px;
+}
+
+.CaixaPrincipal input,
+button,
+.container-cadastro button,
+input {
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  background: #5e36a8;
+  margin: 10px;
+  font-size: 18px;
+}
+
+.CaixaPrincipal button,
+#enviar {
+  color: white;
+  padding: 3px;
+  position: relative;
+  top: 30px;
+}
+
+#email {
+  background-color: #e4e3e3 !important;
+}
+
+.CaixaPrincipal h5 a {
+  text-decoration: none;
+}
+
+.CaixaPrincipal h5 a:visited {
+  color: rgba(24, 226, 17, 0.533);
+}
+
+.item1 {
+  grid-area: "qs";
+}
+.item2 {
+  grid-area: "nm";
+}
+.item3 {
+  grid-area: "fc";
+}
+
+.contentgrid {
+  display: grid;
+  grid-template-areas:
+    "qs qs qs nm nm "
+    "qs qs qs nm nm "
+    "qs qs qs nm nm ";
+}
+.caprincipal {
+  background-color: #e4e3e3;
+  margin: 10px;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.item1,
+.item2 {
+  background: linear-gradient(rgb(83, 145, 199), rgb(255, 196, 196));
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.item3 .msg {
+  height: 150px;
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+  text-align: none;
+  word-break: break-word;
+  border: none;
+  border-radius: 5px;
+}
+
+.containerflex {
+  background: #e4e3e3;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.contentflex {
+  display: flex;
+  flex-direction: row;
+}
+
+.containerflex .cf {
+  background: linear-gradient(45deg, rgb(83, 145, 199), rgb(255, 196, 196));
+  border-radius: 5px;
+  width: 100%;
+  margin: 5px;
+  text-align: center;
+}
+
+.containerflex .cf::before {
+  display: flex;
+  text-align: center;
+  justify-content: none;
+}
+
+.tp1,
+.tp2,
+.tp3 {
+  background: rgb(173, 210, 241);
+  font-size: 30px;
+  display: flex;
+  margin: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.tp1 p,
+.tp2 p,
+.tp3 p {
+  padding: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 14px;
+  row-gap: 14px;
+  padding: 10px;
+  position: fixed;
+}
+
+.grid-item {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.container-cadastro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  min-width: 500px;
+}
+
+.container-cadastro h3 {
+  text-align: center;
+}
+
+.container-cadastro button {
+  border: none;
+  color: #fff;
+  padding: 4px;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.rec-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 15px;
+  background: linear-gradient(45deg, rgb(54, 101, 141), #a0a0a0);
+  padding: 10px;
+}
+
+.rec-container input {
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+}
+
+.rec-container button {
+  border: none;
+  background: #2f175c;
+  color: #fff;
+  padding: 4px;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 3px;
+}
+
+.rec-container p:nth-child(4) {
+  font-size: 12px;
+}
+.tudo-jogo {
+  width: 100%;
+  height: 350px;
+  margin: 10px;
+  text-align: center;
+}
+
+.tudo-jogo img {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  z-index: -1;
+}
+
+.bar {
+  width: 150px;
+  height: 30px;
+  background: salmon;
+  position: relative;
+  display: none;
+  top: 200px;
+  left: 320px;
+}
+
+.bar2 {
+  width: 20px;
+  height: 30px;
+  background: rgb(36, 19, 18);
+  position: relative;
+  display: flex;
+  border-radius: 0 20px 20px 0;
+  animation: load 0.1s infinite;
+}
+
+.barra-jogo {
+  display: flex;
+  justify-content: center;
+  padding-right: 0;
+  padding: 10px;
+  background-color: #c8df89;
+}
+
+.barra-jogo button {
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(54, 101, 141);
+  color: white;
+  padding: 10px;
+}
+
+.grid-item p {
+  position: relative;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  height: 20%;
+  text-align: center;
+}
+
+.lista-placar {
+  display: flex;
+  flex-direction: column;
+}
+
+.lista-placar li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  background: rgb(54, 101, 141);
+  margin: 10px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 2px;
+  min-width: 400px;
+  font-size: 15px;
+  color: #fff;
+}
+
+.lista-placar li img {
+  height: 45px;
+  position: absolute;
+  left: 55px;
+}
+
+.botao-desce {
+  background-color: rgb(54, 101, 141);
+  width: 98.5%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+}
+.suporte-desce {
+  position: relative;
+  display: inline-block;
+}
+
+.conteudo {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.conteudo p {
+  display: block;
+  color: white;
+  background-color: rgb(16, 64, 105);
+  border-radius: 15px;
+  position: relative;
+  padding: 10px;
+  top: -30px;
+}
+
+.suporte-desce:hover .conteudo {
+  display: block;
+  float: center;
+}
+
+.suporte-geral {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.texto-suporte {
+  background: linear-gradient(45deg, rgb(54, 101, 141), #a0a0a0);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.d-texto-suporte {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.pergunta-forum1,
+.pergunta-forum2 {
+  background: linear-gradient(45deg, rgb(54, 101, 141), #a0a0a0);
+  font-size: 20px;
+  border-radius: 5px;
+  color: white;
+  margin: 10px;
+  display: flex;
+}
+.pergunta-forum1 p,
+.pergunta-forum2 p {
+  padding: 2px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.pergunta-forum1 img,
+.pergunta-forum2 img {
+  height: 90px;
+  position: relative;
+  top: 10px;
+  left: 5px;
+}
+
+.tp1 img,
+.tp2 img,
+.tp3 img {
+  height: 90px;
+  position: relative;
+  left: 5px;
+}
+
+.recorde-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #e4e3e3;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 420px;
+}
+
+.pergunta-principal {
+  display: flex;
+  position: relative;
+  left: -20px;
+  background: linear-gradient(45deg, rgb(54, 101, 141), #a0a0a0);
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.perfil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfil img {
+  width: 100px;
+  position: relative;
+}
+
+.perfil p {
+  color: white;
+}
+
+.texto-resposta-forum {
+  display: flex;
+  text-align: right;
+  width: 100%;
+  background: white;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.resposta-escrita {
+  display: flex;
+  background: linear-gradient(45deg, rgb(54, 101, 141), #a0a0a0);
+  margin: 14px;
+  padding: 10px;
+  position: relative;
+  width: 90%;
+  left: 55px;
+
+  border-radius: 10px;
+}
+
+.containerHomer {
+  display: flex;
+  justify-content: center;
+}
+
+.escrever-resposta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: linear-gradient(45deg, rgb(54, 101, 141), #a0a0a0);
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.escrever-resposta img {
+  width: 100px;
+  padding: 10px;
+}
+
+.msg-forum {
+  height: 100px;
+  width: 75%;
+  box-sizing: border-box;
+  resize: none;
+  text-align: none;
+  word-break: break-word;
+  border: none;
+  border-radius: 5px;
+}
+
+.escrever-resposta button {
+  border: none;
+  height: 30px;
+  background: #2f175c;
+  color: #fff;
+  padding: 4px;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.container-btsU {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+}
+
+.enviar {
+  content: "Enviar";
+  border: none;
+  color: #fff;
+  background: #2f175c;
+  margin: 9px;
+
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+#userbox,
+#passbox,
+.container-cadastro input {
+  border: none;
+  margin-left: 10px;
+  background-color: #e4e3e3;
+}
+
+#Homebox {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #a0a0a0;*/
+  font-size: 20px;
+}
+
+#title {
+  font-weight: bold;
+}
