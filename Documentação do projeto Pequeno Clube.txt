@@ -51,43 +51,52 @@ Interface e wireframe detalhados no arquivo anexo.
 
 
 Requisitos funcionais:
-Código
-	Funcionalidade
+
 	AG001
 	Cadastrar usuários
+	
 	AG002
 	Recuperar senha
+	
 	AG003
 	Efetuar Login
+	
 	AG004
 	Executar jogos corretamente
+	
 	AG005
 	Cadastrar tópicos no fórum
+	
 	AG006
 	Responder tópicos no fórum
+	
 	AG007
 	Exibir corretamente a aba suporte 
+	
 	AG008
 	Enviar mensagens corretamente da aba responsáveis
+	
 	AG009
 	Importar/criar jogos
 	
 
 Requisitos não funcionais:
 
-
-Código
-	Requisitos
 	AG001
 	Acessibilidade na web
+	
 	AG002
 	Desenvolvido em Html5, Javascript, CSS e Python
+	
 	AG003
 	Utilizando como SGBD o Mysql5
+	
 	AG004
 	Servidor utilizando o Apache, Python e https com 6 GBytes de memória e 100 GBytes de HD
+	
 	AG005
 	Qualidade do software
+	
 	AG006
 	Teste de software
 	
