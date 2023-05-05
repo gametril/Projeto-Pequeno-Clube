@@ -35,352 +35,19 @@ O Pequeno Clube objetiva ser uma solução para esse problema, com a apresentaç
 O projeto Pequeno Clube será desenvolvido baseado em uma engenharia de software de tipo incremental.
 
 
-
-
-
-
-
-
-
-
-
-
-7. Cronograma
-
-
-
-
-Nome da tarefa
-	Semanas
-	1º
-	2º
-	3º
-	4º
-	5º
-	6º
-	7º
-	8º
-	9º
-	10º
-	11º
-	12º
-	1. Instalação da infra-estrutura
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	1.1 Escolha de domínio
-	
-
-	
-
-	|
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	1.2 Escolha servidor
-	
-
-	
-
-	|
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	2. Desenvolvimento
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	2.1 Criação da interface
-	|
-	|
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	 2.2Criação do BD
-	|
-	|
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	2.3 Criação do sistema de cadastro
-	
-
-	
-
-	|
-	|
-	|
-	|
-	|
-	|
-	
-
-	
-
-	
-
-	
-
-	2.4 Criação/Importação dos jogos
-	
-
-	
-
-	|
-	|
-	|
-	|
-	|
-	|
-	
-
-	
-
-	
-
-	
-
-	2.5 Criação do fórum
-	
-
-	
-
-	|
-	|
-	|
-	|
-	|
-	|
-	
-
-	
-
-	
-
-	
-
-	2.6 Criação da página de suporte
-	
-
-	
-
-	|
-	|
-	|
-	|
-	|
-	|
-	
-
-	
-
-	
-
-	
-
-	2.7 Criação da aba responsáveis
-	
-
-	
-
-	|
-	|
-	|
-	|
-	|
-	|
-	
-
-	
-
-	
-
-	
-
-	3. Testes
-	
-
-	
-
-	|
-	\
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	
-
-
-
-8. Detalhamento do Aplicativo / Gameplay e Enredo (Para o Caso de Jogos)
+7. Detalhamento do Aplicativo / Gameplay e Enredo (Para o Caso de Jogos)
 
 
 O primeiro jogo pensado é um jogo onde as crianças veem uma imagem e uma palavra faltando uma letra para que se complete a palavra, dadas todas as letras do alfabeto a criança deverá escolher qual letra completa a palavra apresentada.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9. Arquitetura da Informação
-
-
-Abaixo está definida a arquitetura de informação para o site
-  
-
-
-
-10. Level Design (Somente para Jogos)
-
-
-Detalhamento apontado no item 8.
-
-
-11. Interface do usuário
+8. Interface do usuário
 
 
 Interface e wireframe detalhados no arquivo anexo.
 
 
-12. Checklist de Funcionalidades do Aplicativo
+9. Checklist de Funcionalidades do Aplicativo
 
 
 Requisitos funcionais:
@@ -427,26 +94,26 @@ Código
 
 
 
-13. Áudio e música
+10. Áudio e música
 
 
 O site não contará com áudio em momento algum.
 
 
-14. Estilo e Referências
+11. Estilo e Referências
 
 
 O site contará com estilo responsivo e visual inspirado no jogo online Club Penguin.
 
 
-15. Ferramentas, Plug-ins e Dependências Usados no
+12. Ferramentas, Plug-ins e Dependências Usados no
 Desenvolvimento do Aplicativo
 
 
 O aplicativo será desenvolvido usando as APIs Virtual Studio Code e Repl.it, com banco de dados MySQL e um servidor web baseado em Python.
 
 
-16. Ideais Adicionais e Observações
+13. Ideais Adicionais e Observações
 
 
 O site foi pensado originalmente para computador, mas ocasionalmente poderá ser executado em dispositivos móveis.
