@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import ".././styles.css";
-import { Link } from "react-router-dom";
 
 const Responsaveis = () => {
   return (
@@ -45,6 +44,7 @@ const Responsaveis = () => {
                 placeholder="Digite sua mensagem aqui"
               />
               <br />
+              <div className="Mec">Mensagem enviada</div>
               <input type="submit" value="Enviar" />
               <input
                 type="hidden"
